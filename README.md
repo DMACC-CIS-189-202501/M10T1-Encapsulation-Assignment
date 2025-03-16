@@ -1,6 +1,4 @@
-# Assignment-Starter-Repo-Template
-
-TODO: Update the above to your repo name
+# M10 T1 Encapsulation Assignment
 
 ## Instructions for students
 
