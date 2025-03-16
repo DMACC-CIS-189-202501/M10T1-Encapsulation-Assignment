@@ -7,7 +7,7 @@ class Employee:
 
     # TODO 2: __init__ method accepts two arguments: first_name and last_name.
     # Modify __init__ to also take an address (str), phone_number (str), salary (float), and start_date(str)
-    def __init__(self, last_name, first_name, address, phone_number, salary, start_date):
+    def __init__(self, last_name, first_name):
         self.last_name = last_name
         self.first_name = first_name
         # TODO 3: don't forget to take your arugments and set them to a value on the object; eg:
