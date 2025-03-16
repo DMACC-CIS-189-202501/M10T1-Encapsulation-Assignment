@@ -9,4 +9,19 @@ TODO: Update the above to your repo name
 
 ### Directions - Copy/Pasted from Canvas
 
-TODO
+The Employee class __init__ method accepts two arguments: first_name and last_name. You are to add four additional attributes:
+* address: str
+* phone_number: str
+* salary: float
+* start_date: str
+
+Complete the display method (fruitful) within the Employee class, which returns a string that displays information for the employee in the following format:
+* LAST_NAME, FIRST_NAME: {last name, first name here}
+* PHONE_NUMBER: {phone number here}
+* ADDRESS: {address here}
+* START DATE: {start date here}
+* SALARY: {salary here}
+
+### Class UML Diagram
+
+![Employee UML](./employee_class_uml.svg)
