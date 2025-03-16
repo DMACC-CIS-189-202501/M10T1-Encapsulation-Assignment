@@ -7,13 +7,12 @@ class Employee:
 
     # TODO 2: __init__ method accepts two arguments: first_name and last_name.
     # Modify __init__ to also take an address (str), phone_number (str), salary (float), and start_date(str)
-    def __init__(self, last_name, first_name):
+    def __init__(self, last_name, first_name, address, phone_number, salary, start_date):
         self.last_name = last_name
         self.first_name = first_name
         # TODO 3: don't forget to take your arugments and set them to a value on the object; eg:
         # self.last_name creates a last_name value on the object, then the '= last_name' assigns it to the value passed 
         # into the __init__ function
-
 
     def display(self):
         """
@@ -22,7 +21,7 @@ class Employee:
             LAST_NAME, FIRST_NAME: <last name, first name here>
             PHONE_NUMBER: <phone number here>
             ADDRESS: <address here>
-            START DATE: <start date here>
+            START_DATE: <start date here>
             SALARY: <salary here>
 
         :return: string showing the above

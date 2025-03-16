@@ -17,7 +17,7 @@ def test_employee_display():
         "LAST_NAME, FIRST_NAME: Doe, John\n"
         "PHONE_NUMBER: 555-555-5555\n"
         "ADDRESS: 123 Main St\n"
-        "START DATE: 2023-01-01\n"
+        "START_DATE: 2023-01-01\n"
         "SALARY: 50000.0\n"
     )
     assert employee.display() == expected_display, f"DMACC Student, the 'display' method did not return the expected string.\nExpected: {expected_display}\nActual: {employee.display()}\nPlease check your display method logic."
